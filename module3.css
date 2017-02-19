@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 16px;
+	color:#000;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+	background-color:#B6B6B6;
+}
+.navbar-brand h1 {
+	color:#0C0;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:0;
+	margin-bottom:0;
+}
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color:#090;
+	text-align: center;
+	font-size:18px;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #090;
+}
+#chicken {
+	background-color:#999;
+	margin:20px;
+}
+#main-content {
+	height:1000px;
+}
