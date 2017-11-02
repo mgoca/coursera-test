@@ -1,0 +1,377 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  font-size: 16px;
+  color:#CCC ;
+  background-color: #996633;   /*#3D2E01;*/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:	#dab567;;
+  border-radius: 0;
+  border: 0;
+  
+  
+}
+
+/*#logo-img {
+  background:url(30be73cc54e384196938f96bad8d3f12.png) no-repeat;
+  width: 105px;
+  height: 105px;
+  margin: 10px 15px 10px 0;
+}*/
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* bakery name */
+  font-family: 'Lora', serif;
+  color:#8d6559 ;/* #557c3e;*/
+  font-size: 2 em;
+  font-stretch:wider;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+ 
+}
+.navbar-brand p { /* Kore za pitu */
+  font-size: 0.7 em;
+  margin-top: 5px;
+  color:#333;
+ 
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ad430d;
+  text-align: center;
+}
+
+#nav-list a:hover {
+   background-color:#996633;
+  color:#dab567;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+  
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+ 
+}
+#phone div { /* Pozovite nas */
+  color: #775146;
+  text-align: right;
+  padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border:1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*end header*/
+/*footer*/
+
+.footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color:#222;
+  border-top: 0;
+}
+.footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#radno-vreme > span, #adresa > span {
+  font-size: 1.3em;
+}
+#adresa p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#posetite {
+  font-style: italic;
+}
+#posetite p {
+  margin-top: 45px;
+}
+#posetite p span{
+	margin-left:55px;
+       }
+/*end footer*/
+/*slider*/
+.size-slider{
+	width:90%;
+	height:auto;
+	margin-bottom:30px;
+	}
+
+/*.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}*/
+#proizvodi, #recepti, #mapa {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#proizvodi:hover, #recepti:hover, #mapa:hover {
+  box-shadow: 0 1px 5px 1px #30C;
+}
+
+#proizvodi {
+  background:url(image/stock-photo-raw-pasta.jpg) no-repeat;
+  background-position: center;
+}
+#recepti {
+  background:url(image/pita-sa-sirom%20copy.jpg) no-repeat;
+  background-position: center;
+}
+
+#proizvodi span, #recepti span, #mapa span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* END HOME PAGE */
+/* PROIZVODI STRANA */
+.vrste-proizvoda { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.vrste-proizvoda span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.vrste-proizvoda:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#proizvodi-naslov + div {
+  margin-bottom: 50px;
+}
+/* END PROIZVODI */
+/* POJEDINACNI PROIZVODI */
+.item {
+  margin-bottom: 25px;
+}
+.item hr {
+  width: 80%;
+}
+.item .item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.item .item-price span {
+  font-size: .6em;
+}
+.item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.item-description {
+  padding-right: 30px;
+}
+h3.item-title {
+  margin: 0 0 10px;
+}
+.item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END POJEDINACNI PROIZVODI */
+
+ /********** Large devices only **********/ 
+  @media (min-width: 1200px) {
+  /*.container .jumbotron {
+    background:url(image/Pasta-1200.jpg) no-repeat;
+    height: 675px;
+  }*/
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ /* #logo-img {
+    background:url
+	url(30be73cc54e384196938f96bad8d3f12.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }*/
+  /* End Header */
+  /*home page*/
+  /*.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+ .container .jumbotron {
+    background:url(image/Pasta-992.jpg) no-repeat;
+    height: 558px;
+  }*/
+  }
+  /* End Home Page */
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  /*.container .jumbotron {
+    background:url(image/Pasta-768.jpg) no-repeat;
+    height: 432px;
+  }*/
+  }
+  /* End Home Page */
+
+/********** Extra small devices only **********/
+@media  (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kore za pitu */
+    color:#333;
+  
+  font-size: 0.7 em;
+  margin-top: 15px;
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+	color:white;
+  }
+  /* End Header */
+  /*footer*/
+  .footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer section p {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .footer section hr {
+    width: 50%;
+  }
+  /*end footer*/
+   /* Home Page */
+ /* .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }*/
+  #proizvodi, #recepti{width:360px;
+margin:0 auto 15px;}
+
+
+  .item-photo {
+    margin-right: auto;
+  }
+  .item-tile .item-price {
+    text-align: center;
+  }
+  .item-description {
+    text-align: center;;
+  }
+}
+  
+  
+  @media(max-width:470px){
+	/* Header */
+  .navbar-brand h1 { /*  name */
+    padding-top: 5px;
+    font-size: 7vw;
+  }
+  
+  /* End Header */
+  #proizvodi,#recepti{width:90%;
+	margin:0 auto 15px;}
+	.col-xxs-12{ position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;}
+	}
